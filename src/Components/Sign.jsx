@@ -6,6 +6,7 @@ function Sign() {
 
   const [role, setRole] = useState(null);
   const [user, setUser] = useState(null);
+  console.log(user);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
